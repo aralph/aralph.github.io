@@ -6,7 +6,7 @@ description: Machine Learning Engineer
 
 <div class="section">
 
-## About Me
+# About Me
 
 I am a Machine Learning engineer with focus on Computer Vision.
 
@@ -28,7 +28,7 @@ I am a Machine Learning engineer with focus on Computer Vision.
 
 <div class="section">
 
-## Projects
+# Projects
 
 <div class="project-grid">
 
@@ -68,7 +68,7 @@ I am a Machine Learning engineer with focus on Computer Vision.
 
 <div class="section">
 
-## Publications
+# Publications
 
 ### Conference Papers
 - **Your Paper Title** (2024) - *Conference Name*
@@ -85,7 +85,7 @@ I am a Machine Learning engineer with focus on Computer Vision.
 
 <div class="section">
 
-## Experience
+# Experience
 
 **Senior Machine Learning Engineer** | *Scandit (Zürich, Switzerland)* | 08.2021 - Present
 - Tech Lead and Python Guild Lead for 40+ engineers
