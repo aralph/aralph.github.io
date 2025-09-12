@@ -20,9 +20,9 @@ I am a Machine Learning engineer with focus on Computer Vision.
   <!--a href="mailto:your.email@example.com" class="contact-link">Email</a> -->
   <a href="https://linkedin.com/in/ralphaeschimann" class="contact-link">LinkedIn</a>
   <a href="https://github.com/aralph" class="contact-link">GitHub</a>
+  <a href="assets/pdfs/resume_ralph_aeschimann.pdf" class="resume-button" target="_blank">📄 Resume PDF</a>
 </div>
 
-<a href="assets/pdfs/resume_ralph_aeschimann.pdf" class="resume-button" target="_blank">📄 Resume PDF</a>
 
 </div>
 
