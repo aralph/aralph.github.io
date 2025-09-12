@@ -4,7 +4,7 @@ title: Ralph Aeschimann
 description: Machine Learning Engineer
 ---
 
-<div class="section">
+<div class="section" markdown="1">
 
 # About Me
 
@@ -26,7 +26,7 @@ I am a Machine Learning engineer with focus on Computer Vision.
 
 </div>
 
-<div class="section">
+<div class="section" markdown="1">
 
 # Projects
 
@@ -66,7 +66,7 @@ I am a Machine Learning engineer with focus on Computer Vision.
 
 </div>
 
-<div class="section">
+<div class="section" markdown="1">
 
 # Publications
 
@@ -83,7 +83,7 @@ I am a Machine Learning engineer with focus on Computer Vision.
 
 </div>
 
-<div class="section">
+<div class="section" markdown="1">
 
 # Experience
 
