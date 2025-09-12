@@ -1,1 +1,27 @@
 theme: jekyll-theme-cayman
+
+# Site settings
+title: Ralph Aeschimann - Professional Portfolio
+description: Machine Learning Engineer
+author: Ralph Aeschimann
+#email: your.email@example.com
+url: "https://aralph.github.io"
+baseurl: ""
+
+# Social links
+github_username: aralph
+linkedin_username: ralphaeschimann
+
+# SEO settings
+lang: en
+timezone: Europe/Zurich
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
