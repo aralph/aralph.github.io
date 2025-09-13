@@ -10,12 +10,6 @@ description: Machine Learning Engineer
 
 I am a Machine Learning engineer with focus on Computer Vision.
 
-**Key Skills:**
-<div class="skills-list">
-  <span class="skill-tag">Python</span>
-  <span class="skill-tag">C++</span>
-</div>
-
 <div class="contact-links">
   <!--a href="mailto:your.email@example.com" class="contact-link">Email</a> -->
   <a href="https://linkedin.com/in/ralphaeschimann" class="contact-link">LinkedIn</a>
@@ -33,32 +27,45 @@ I am a Machine Learning engineer with focus on Computer Vision.
 <div class="project-grid">
 
 <div class="project-card">
-  <img src="assets/images/project1.jpg" alt="Project 1 Screenshot">
-  <h3>Project Name 1</h3>
-  <p>Brief description of your project. What problem it solves, technologies used, and key achievements.</p>
+  <img src="assets/images/robot.jpg" alt="Project image">
+  <h3>Product recognition in retail stores</h3>
+  <p>Description.</p>
   <div class="skills-list">
-    <span class="skill-tag">React</span>
-    <span class="skill-tag">Node.js</span>
+    <span class="skill-tag">Skill</span>
+    <span class="skill-tag">Skill</span>
+    <span class="skill-tag">Skill</span>
+    <span class="skill-tag">Skill</span>
   </div>
 </div>
 
 <div class="project-card">
-  <img src="assets/images/project2.jpg" alt="Project 2 Screenshot">
-  <h3>Project Name 2</h3>
-  <p>Brief description of your second project. Highlight the impact and interesting technical aspects.</p>
+  <img src="assets/images/robot.jpg" alt="Project image">
+  <h3>Barcode and text localization on mobile</h3>
+  <p>Description.</p>
   <div class="skills-list">
-    <span class="skill-tag">Python</span>
-    <span class="skill-tag">TensorFlow</span>
+    <span class="skill-tag">Skill</span>
+    <span class="skill-tag">Skill</span>
+    <span class="skill-tag">Skill</span>
   </div>
 </div>
 
 <div class="project-card">
-  <img src="assets/images/project3.jpg" alt="Project 3 Screenshot">
-  <h3>Project Name 3</h3>
-  <p>Description of your third project. Focus on the value delivered and technologies learned.</p>
+  <img src="assets/images/robot.jpg" alt="Project image">
+  <h3>Virtual ads during live sports broadcasting</h3>
+  <p>Description.</p>
   <div class="skills-list">
-    <span class="skill-tag">Vue.js</span>
-    <span class="skill-tag">PostgreSQL</span>
+    <span class="skill-tag">Skill</span>
+    <span class="skill-tag">Skill</span>
+  </div>
+</div>
+
+<div class="project-card">
+  <img src="assets/images/robot.jpg" alt="Project image">
+  <h3>Autonomous wheeled robot on cluttered grounds</h3>
+  <p>Description.</p>
+  <div class="skills-list">
+    <span class="skill-tag">Skill</span>
+    <span class="skill-tag">Skill</span>
   </div>
 </div>
 
