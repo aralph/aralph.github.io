@@ -4,6 +4,7 @@
 @import "{{ site.theme }}";
 
 /* Custom styles for professional resume */
+/* Overrides original file: https://github.com/pages-themes/cayman/blob/master/_layouts/default.html */
 
 /* Improved typography */
 body {
@@ -46,6 +47,7 @@ body {
 
 .section:last-child {
   border-bottom: none;
+  margin-bottom: 0;
 }
 
 .section h2 {
@@ -119,21 +121,31 @@ body {
 
 .contact-link {
   display: inline-block;
-  background: #159957;
-  color: white;
-  padding: 0.8rem 1.5rem;
+  background: rgba(0, 0, 0, 0.08);
+  color: #586069;
+  //border: 1px solid rgba(27, 31, 35, 0.2);
+  padding: 0.75rem 1rem;
   text-decoration: none;
-  border-radius: 4px;
-  font-weight: 500;
-  transition: background-color 0.3s ease;
+  border-radius: 0.3rem;
+  font-weight: normal;
+  font-size: 1rem;
+  transition: all 0.2s ease-in-out;
 }
 
 .contact-link:hover {
-  background: #0e7042;
-  color: white;
+  background: rgba(0, 0, 0, 0.15);
+  color: #24292e;
+  border-color: rgba(27, 31, 35, 0.35);
   text-decoration: none;
 }
 
+
+/* Footer styling */
+.site-footer {
+  text-align: center;
+  border-top: none !important;
+  margin-top: 2rem;
+}
 
 /* Responsive design */
 @media (max-width: 768px) {
