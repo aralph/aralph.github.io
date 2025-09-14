@@ -3,32 +3,44 @@
 
 @import "{{ site.theme }}";
 
-/* Custom styles for professional resume */
+/* Custom styles */
 /* Overrides original file: https://github.com/pages-themes/cayman/blob/master/_layouts/default.html */
+
+
+/* Monochrome theme: shades of grey only */
+
+:root {
+  --main-color: #374151;        /* Medium grey for headers/graphics */
+  --main-color-light: #6b7280;  /* Light grey for links/buttons */
+  --main-color-dark: #1f2937;   /* Dark grey for graphics */
+  --main-color-darker: #111827; /* Darkest grey for accents */
+}
 
 /* Improved typography */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
+  color: #374151;
 }
 
-/* Header styling */
+/* Override hyperlink colors - brighter for visibility */
+a {
+  color: var(--main-color-light) !important;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: var(--main-color) !important;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: var(--main-color) !important;
+}
+
+/* Header styling - monochromatic gradient */
 .page-header {
-  background: linear-gradient(120deg, #159957, #155799);
-  text-align: center;
-  padding: 3rem 1rem;
-}
-
-.project-name {
-  font-size: 2.5rem;
-  font-weight: 300;
-  margin-bottom: 0.5rem;
-}
-
-.project-tagline {
-  font-size: 1.2rem;
-  font-weight: 300;
-  opacity: 0.9;
+  background: linear-gradient(135deg, var(--main-color), var(--main-color-darker));
 }
 
 /* Main content styling */
@@ -42,7 +54,7 @@ body {
 .section {
   margin-bottom: 3rem;
   padding-bottom: 2rem;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid rgba(55, 65, 81, 0.15);
 }
 
 .section:last-child {
@@ -50,12 +62,22 @@ body {
   margin-bottom: 0;
 }
 
+/* Override theme's green headers */
+.main-content h1, 
+.main-content h2, 
+.main-content h3, 
+.main-content h4, 
+.main-content h5, 
+.main-content h6 {
+  color: var(--main-color) !important;
+}
+
 .section h2 {
-  color: #159957;
+  color: var(--main-color) !important;
   font-size: 1.8rem;
   margin-bottom: 1.5rem;
   padding-bottom: 0.5rem;
-  border-bottom: 2px solid #159957;
+  border-bottom: 2px solid var(--main-color);
   display: inline-block;
 }
 
@@ -68,20 +90,22 @@ body {
 }
 
 .project-card {
-  background: #f8f9fa;
+  background: rgba(55, 65, 81, 0.03);
+  border: 1px solid rgba(55, 65, 81, 0.15);
   border-radius: 8px;
   padding: 1.5rem;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 2px 4px rgba(55, 65, 81, 0.12);
+  transition: all 0.3s ease;
 }
 
 .project-card:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  border-color: rgba(55, 65, 81, 0.25);
+  box-shadow: 0 4px 12px rgba(55, 65, 81, 0.18);
 }
 
 .project-card h3 {
-  color: #333;
+  color: var(--main-color-dark);
   margin-bottom: 1rem;
   font-size: 1.3rem;
 }
@@ -103,8 +127,9 @@ body {
 }
 
 .skill-tag {
-  background: #159957;
-  color: white;
+  background: rgba(107, 114, 128, 0.1);
+  color: var(--main-color-light);
+  border: 1px solid rgba(107, 114, 128, 0.3);
   padding: 0.3rem 0.8rem;
   border-radius: 20px;
   font-size: 0.9rem;
@@ -121,9 +146,9 @@ body {
 
 .contact-link {
   display: inline-block;
-  background: rgba(0, 0, 0, 0.08);
-  color: #586069;
-  //border: 1px solid rgba(27, 31, 35, 0.2);
+  background: rgba(107, 114, 128, 0.1);
+  color: var(--main-color-light);
+  border: 1px solid rgba(107, 114, 128, 0.3);
   padding: 0.75rem 1rem;
   text-decoration: none;
   border-radius: 0.3rem;
@@ -133,9 +158,9 @@ body {
 }
 
 .contact-link:hover {
-  background: rgba(0, 0, 0, 0.15);
-  color: #24292e;
-  border-color: rgba(27, 31, 35, 0.35);
+  background: rgba(107, 114, 128, 0.2);
+  color: var(--main-color);
+  border-color: rgba(107, 114, 128, 0.5);
   text-decoration: none;
 }
 
