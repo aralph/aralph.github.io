@@ -1,14 +1,12 @@
 ---
 layout: default
-title: Ralph Aeschimann
-description: Machine Learning Engineer
 ---
 
 <div class="section" markdown="1">
 
 # About Me
 
-I am a Machine Learning engineer with focus on Computer Vision.
+I am a Machine Learning engineer based in Switzerland. I'm interested in Computer Vision, Robotics, and building real-time software systems. 
 
 <div class="contact-links">
   <!--a href="mailto:your.email@example.com" class="contact-link">Email</a> -->
