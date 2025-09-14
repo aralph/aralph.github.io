@@ -1,15 +1,11 @@
 # Development
 
-Page: https://aralph.github.io/
+## Done and pending work
 
-Preview: https://github.com/aralph/aralph.github.io/edit/master/index.md
-
-## Pending work
-
-- Populate main page
-- Add resources (images, PDFs)
-- Style CSS / theme
-- publish to custom domain
+- ✅ Populate main page
+- ✅ Add resources (images, PDFs)
+- ✅ Style CSS / theme
+- 🔄 publish to custom domain
 
 ## Intro to GitHub Pages
 
