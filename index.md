@@ -23,9 +23,9 @@ I am a Machine Learning engineer based in Switzerland. I'm interested in Compute
 
 <div class="project-grid">
 
-<div class="project-card">
+<div class="project-card" data-url="/projects/shelfview/">
   <img src="assets/images/shelfview.avif" alt="Project image">
-  <h3>Product recognition in retail stores</h3>
+  <h3 class="project-title">Product recognition in retail stores</h3>
   <p>Tech lead of product recognition team. See <a href="https://www.scandit.com/products/shelfview/" target="_blank">ShelfView Product website</a>.</p>
   <div class="skills-list">
     <span class="skill-tag">Python</span>
@@ -35,9 +35,9 @@ I am a Machine Learning engineer based in Switzerland. I'm interested in Compute
   </div>
 </div>
 
-<div class="project-card">
+<div class="project-card" data-url="/projects/matrixscan/">
   <img src="assets/images/matrixscan.avif" alt="Project image">
-  <h3>Barcode & text localization on mobile</h3>
+  <h3 class="project-title">Barcode & text localization on mobile</h3>
   <p>Lead ML engineer for detection on edge devices. See <a href="https://www.scandit.com/products/matrixscan/" target="_blank">MatrixScan Product website</a>.</p>
   <div class="skills-list">
     <span class="skill-tag">C++</span>
@@ -46,11 +46,10 @@ I am a Machine Learning engineer based in Switzerland. I'm interested in Compute
   </div>
 </div>
 
-<div class="project-card">
+<div class="project-card" data-url="/projects/vizarena/">
   <img src="assets/images/vizarena.jpg" alt="Project image">
-  <h3>Virtual ads during live sports broadcasting</h3>
+  <h3 class="project-title">Virtual ads during live sports broadcasting</h3>
   <p>Image segmentation for real-time augmented reality rendering. See <a href="https://www.vizrt.com/products/viz-arena/" target="_blank">Viz Arena Product website</a>.</p>
-
   <div class="skills-list">
     <span class="skill-tag">C++</span>
     <span class="skill-tag">Python</span>
@@ -59,11 +58,10 @@ I am a Machine Learning engineer based in Switzerland. I'm interested in Compute
   </div>
 </div>
 
-<div class="project-card">
+<div class="project-card" data-url="/projects/gator/">
   <img src="assets/images/csirogator.jpg" alt="Project image">
-  <h3>Autonomous wheeled robot on cluttered grounds</h3>
+  <h3 class="project-title">Autonomous wheeled robot on cluttered grounds</h3>
   <p>Research on driving on obstacle avoidance for autonomous offroad driving. See <a href="https://research.csiro.au/robotics/gator/" target="_blank">The Gator autonomous vehicle website</a>.</p>
-  
   <div class="skills-list">
     <span class="skill-tag">C++</span>
     <span class="skill-tag">OpenCV</span>
@@ -72,6 +70,26 @@ I am a Machine Learning engineer based in Switzerland. I'm interested in Compute
 </div>
 
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const projectCards = document.querySelectorAll('.project-card[data-url]');
+
+  projectCards.forEach(card => {
+    card.addEventListener('click', function(e) {
+      // Don't navigate if user is selecting text or clicking a link
+      if (window.getSelection().toString() || e.target.tagName === 'A') {
+        return;
+      }
+
+      const url = this.getAttribute('data-url');
+      if (url) {
+        window.location.href = url;
+      }
+    });
+  });
+});
+</script>
 
 </div>
 
