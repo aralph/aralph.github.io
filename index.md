@@ -107,7 +107,7 @@ I am a Machine Learning engineer with focus on Computer Vision.
 - Deployed neural networks for video segmentation in live TV with 50ms inference on 4K
 - Automated training and fine-tuning of networks for customer-specific deployments
 
-**Research Intern** | *[CSIRO](https://www.csiro.au) (Brisbane, Australia)* | 09.2013 - 08.2014
+**Robotics Research Intern** | *[CSIRO](https://www.csiro.au) (Brisbane, Australia)* | 09.2013 - 08.2014
 - Autonomous navigation research for large vehicles on industrial sites using stereo cameras
 - Designed vision and LIDAR sensor fusion algorithms for obstacle avoidance
 
