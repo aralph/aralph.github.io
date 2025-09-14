@@ -1,0 +1,11 @@
+# jekyll
+_site
+.sass-cache
+.jekyll-metadata
+
+# gemfiles
+Gemfile
+Gemfile.lock
+
+# macos
+.DS_Store
