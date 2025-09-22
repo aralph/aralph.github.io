@@ -19,14 +19,24 @@ To build and preview locally, follow the instructions
 - Also follow https://stackoverflow.com/a/62757655
 
 I used a ruby version installed via brew rather than the system one. 
-Be sure to adjust your PATH to invoke the intended ruby binaries. 
+Be sure to adjust your `PATH` to invoke the intended ruby binaries. 
 
 Once this is set up and a gemfile is generated, you can publish on localhost with
 ```zsh
 $ bundle exec jekyll serve
 ```
 
-## Deployment
+## Deployment (🔒 private logins)
 
 For commits to `master` branch to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild and deploy pages.
-* Deployment status (login required): https://github.com/aralph/aralph.github.io/deployments/github-pages
+* Deploymen settings: https://github.com/aralph/aralph.github.io/settings/pages
+* Deployment status: https://github.com/aralph/aralph.github.io/deployments/github-pages
+
+## Custom Domain (🔒 private logins)
+
+Follow the official instructions
+- https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages
+
+I host with Infomaniak, a Swiss cloud service provider
+* Dashboard of my domains: https://manager.infomaniak.com/v3/332937/ng/domain/1089941/dashboard
+* Github Pages config for custom domain and TLS: https://github.com/aralph/aralph.github.io/settings/pages
