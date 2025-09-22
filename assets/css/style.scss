@@ -296,8 +296,12 @@ a:visited {
   }
 
   .contact-links {
-    flex-direction: column;
-    align-items: flex-start;
+    gap: 0.75rem;
+  }
+
+  .contact-link {
+    flex: 0 0 auto;
+    min-width: fit-content;
   }
 
   .project-name {
