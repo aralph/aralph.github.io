@@ -1,0 +1,25 @@
+<div class="project-hero">
+  <div class="carousel-container" id="{{ include.id | default: 'project-carousel' }}">
+    <div class="carousel-slides">
+      {% assign image_list = include.images | split: "," %}
+      {% for image in image_list %}
+      <div class="carousel-slide">
+        {% if image contains "/" %}
+          <img src="{{ image }}" alt="Project image">
+        {% else %}
+          <img src="/assets/images/{{ image }}" alt="Project image">
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+    {% if image_list.size > 1 %}
+    <button class="carousel-arrow prev">‹</button>
+    <button class="carousel-arrow next">›</button>
+    <div class="carousel-navigation">
+      {% for image in image_list %}
+      <span class="carousel-dot{% if forloop.first %} active{% endif %}"></span>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</div>

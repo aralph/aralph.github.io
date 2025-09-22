@@ -7,9 +7,7 @@ permalink: /projects/shelfview/
 
 # Product Recognition in Retail Stores
 
-<div class="project-hero">
-  <img src="/assets/images/shelfview.avif" alt="ShelfView product recognition system">
-</div>
+{% include carousel.html id="shelfview-carousel" images="shelfview.avif,csirogator.jpg,robot.jpg" %}
 
 ## Overview
 
