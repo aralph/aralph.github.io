@@ -15,6 +15,8 @@ permalink: /projects/vizarena/
 
 As a Computer Vision Engineer at Vizrt, I developed cutting-edge real-time virtual advertisement overlay systems for live sports broadcasting, enabling seamless integration of digital advertisements into live television feeds.
 
+[→ Learn more about Viz Arena](https://www.vizrt.com/products/viz-arena/)
+
 ## Key Achievements
 
 - **Developed real-time virtual advertisement overlay system** for sports broadcasting
@@ -40,11 +42,5 @@ Advanced image segmentation techniques allow for precise detection of advertisem
 ## Broadcast Integration
 
 The solution integrates with existing broadcast workflows, providing intuitive controls for operators to manage virtual advertisements during live events while maintaining the quality and reliability required for television production.
-
-[Learn more about Viz Arena →](https://www.vizrt.com/products/viz-arena/)
-
-<div class="navigation-links">
-  <a href="/" class="nav-link">← Back to Portfolio</a>
-</div>
 
 </div>

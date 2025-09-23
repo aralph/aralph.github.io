@@ -330,3 +330,122 @@ a:visited {
     right: 0.5rem;
   }
 }
+
+/* Sidebar Navigation */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 280px;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.95);
+  border-right: 1px solid rgba(55, 65, 81, 0.1);
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+  transform: translateX(0);
+  transition: transform 0.3s ease;
+}
+
+.sidebar-content {
+  padding: 4rem 1.5rem 2rem 1.5rem;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.nav-section {
+  margin-bottom: 1rem;
+}
+
+.nav-heading {
+  color: var(--main-color-light);
+  opacity: 0.6;
+  font-size: 0.85rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.5rem;
+  margin-top: 0;
+  margin-left: 0.75rem;
+}
+
+.nav-item {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: var(--main-color-light) !important;
+  text-decoration: none !important;
+  border-radius: 6px;
+  margin-bottom: 0.125rem;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+  margin-left: 0.75rem;
+}
+
+.nav-item:hover {
+  background: rgba(55, 65, 81, 0.05);
+  color: var(--main-color) !important;
+  border-color: rgba(55, 65, 81, 0.1);
+}
+
+.nav-item.active {
+  background: rgba(55, 65, 81, 0.08);
+  color: var(--main-color) !important;
+  border-color: rgba(55, 65, 81, 0.15);
+  font-weight: 500;
+}
+
+.main-nav {
+  margin-left: 0 !important;
+}
+
+.sidebar-toggle {
+  display: none;
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 1001;
+  background: var(--main-color);
+  color: white;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: all 0.2s ease;
+}
+
+.sidebar-toggle:hover {
+  background: var(--main-color-dark);
+}
+
+/* Main content adjustment */
+.page-header,
+.main-content {
+  margin-left: 280px;
+}
+
+/* Mobile responsive */
+@media (max-width: 1024px) {
+  .sidebar {
+    transform: translateX(-100%);
+  }
+
+  .sidebar.active {
+    transform: translateX(0);
+  }
+
+  .sidebar-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .page-header,
+  .main-content {
+    margin-left: 0;
+  }
+
+  .page-header {
+    padding-left: 4rem;
+  }
+}

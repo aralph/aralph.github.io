@@ -15,6 +15,8 @@ permalink: /projects/matrixscan/
 
 As lead ML engineer for detection on edge devices at Scandit, I developed MatrixScan, a high-performance computer vision solution that enables real-time barcode and text detection directly on mobile devices.
 
+[→ Learn more about MatrixScan](https://www.scandit.com/products/matrixscan/)
+
 ## Key Achievements
 
 - **Launched real-time ML model** for image segmentation running on 1M+ mobile devices monthly
@@ -35,11 +37,5 @@ MatrixScan represents a breakthrough in mobile computer vision, delivering enter
 ## Mobile Optimization
 
 The solution required innovative approaches to neural network quantization and mobile GPU optimization, enabling complex computer vision tasks to run efficiently on resource-constrained mobile devices without compromising user experience.
-
-[Learn more about MatrixScan →](https://www.scandit.com/products/matrixscan/)
-
-<div class="navigation-links">
-  <a href="/" class="nav-link">← Back to Portfolio</a>
-</div>
 
 </div>

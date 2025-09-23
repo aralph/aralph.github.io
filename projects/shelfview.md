@@ -15,6 +15,8 @@ As tech lead of the product recognition team at Scandit, I led the Machine Learn
 
 ShelfView revolutionizes retail operations by providing real-time shelf monitoring, planogram compliance checking, and inventory management through advanced computer vision technology. The system processes millions of images daily, helping major retailers optimize their shelf space and reduce out-of-stock scenarios.
 
+[→ Learn more about ShelfView](https://www.scandit.com/products/shelfview/)
+
 ## Key Achievements
 
 - **Built large-scale object detection and classification pipelines** validated in the stores of European and US retailers
@@ -44,10 +46,7 @@ Training and evaluation was based on in-house data that was collected through an
 Implemented GUI tools speed up debugging and enable quicker root cause analysis of regressions. 
 - TODO detail stack
 
-[Learn more about ShelfView →](https://www.scandit.com/products/shelfview/)
-
-<div class="navigation-links">
-  <a href="/" class="nav-link">← Back to Portfolio</a>
-</div>
+## Related papers
+- TODO
 
 </div>

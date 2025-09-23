@@ -1,0 +1,25 @@
+<!-- Toggle button for mobile (outside sidebar so it's always visible) -->
+<button class="sidebar-toggle" id="sidebarToggle">
+  <span class="toggle-icon">☰</span>
+</button>
+
+<nav class="sidebar">
+  <div class="sidebar-content">
+    <!-- Main navigation -->
+    {% for item in site.data.navigation.main %}
+    <a href="{{ item.url | relative_url }}" class="nav-item main-nav{% if page.url == item.url %} active{% endif %}">
+      {{ item.title }}
+    </a>
+    {% endfor %}
+
+    <!-- Projects section -->
+    <div class="nav-section">
+      <h3 class="nav-heading">Projects</h3>
+      {% for project in site.data.navigation.projects %}
+      <a href="{{ project.url | relative_url }}" class="nav-item{% if page.url == project.url %} active{% endif %}">
+        {{ project.title }}
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,12 @@
+main:
+  - title: "Home"
+    url: "/"
+projects:
+  - title: "Product recognition"
+    url: "/projects/shelfview/"
+  - title: "Barcode localization"
+    url: "/projects/matrixscan/"
+  - title: "Virtual ads in sports"
+    url: "/projects/vizarena/"
+  - title: "Autonomous driving"
+    url: "/projects/gator/"

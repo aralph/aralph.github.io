@@ -15,6 +15,8 @@ permalink: /projects/gator/
 
 During my research internship at CSIRO (Commonwealth Scientific and Industrial Research Organisation) in Brisbane, Australia, I conducted cutting-edge research on autonomous navigation for large vehicles operating in complex, unstructured environments.
 
+[→ Learn more about The Gator](https://research.csiro.au/robotics/gator/)
+
 ## Research Focus
 
 - **Autonomous navigation research** for large vehicles on industrial sites using stereo cameras
@@ -39,11 +41,5 @@ My research contributed to advancing the state-of-the-art in autonomous vehicle 
 ## Publication
 
 The research resulted in a peer-reviewed publication at ICRA 2015, one of the premier conferences in robotics and automation, demonstrating the scientific rigor and impact of the work.
-
-[Learn more about The Gator →](https://research.csiro.au/robotics/gator/)
-
-<div class="navigation-links">
-  <a href="/" class="nav-link">← Back to Portfolio</a>
-</div>
 
 </div>

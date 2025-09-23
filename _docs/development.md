@@ -5,7 +5,37 @@
 - ✅ Populate main page
 - ✅ Add resources (images, PDFs)
 - ✅ Style CSS / theme
-- 🔄 publish to custom domain
+- ✅ publish to custom domain
+- 🔄 subpages and navigation
+- ⏳ detailed description of projects and more projects
+- ⏳ more media for projects
+
+## Repo file structure
+
+### Jekyll's special directories
+
+Jekyll recognizes certain underscore-prefixed directories:
+- `_data/` - Structured data files (YAML, JSON, CSV)
+- `_includes/` - Reusable HTML snippets
+- `_layouts/` - Page templates
+- `_posts/` - Blog posts
+- `_sass/` - Sass/SCSS partials
+- `_site/` - Generated output (auto-created)
+
+For `_data` specifically
+- Auto-loading: Jekyll automatically loads files from _data/ into site.data
+- Template access: Use site.data.navigation in templates
+- Clean separation: Keeps content separate from code
+- Multiple formats: Supports YAML, JSON, CSV
+
+Example:
+```yml
+# _data/navigation.yml
+main:
+- title: "Home"
+```
+
+Becomes accessible as: `{{ site.data.navigation.main[0].title }}`
 
 ## Intro to GitHub Pages
 
