@@ -6,7 +6,9 @@ layout: default
 
 # About Me
 
-I am a Machine Learning engineer based in Switzerland. I'm interested in Computer Vision, Robotics, and building real-time software systems. 
+I am a Machine Learning engineer based in Switzerland. I'm interested in Computer Vision, Robotics Perception, and building real-time software systems. 
+
+I am an active member of Swiss organisations that support reason, science and freethought. 
 
 <div class="contact-links">
   <!--a href="mailto:your.email@example.com" class="contact-link">Email</a> -->
@@ -108,7 +110,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <div class="section" markdown="1">
 
-# Experience
+# Professional Experience
 
 **Senior Machine Learning Engineer** | *[Scandit](https://www.scandit.com/) (Zürich, Switzerland)* | 08.2021 - Present
 - Tech Lead and Python Guild Lead for 40+ engineers
@@ -131,5 +133,13 @@ document.addEventListener('DOMContentLoaded', function() {
 **Robotics Research Intern** | *[CSIRO](https://www.csiro.au) (Brisbane, Australia)* | 09.2013 - 08.2014
 - Autonomous navigation research for large vehicles on industrial sites using stereo cameras
 - Designed vision and LIDAR sensor fusion algorithms for obstacle avoidance
+
+# Interests
+
+I am a supporter of organisations that promote humanist ethics, reason and science.  
+Namely, the [Forum for Critical Thinking](https://kritisch-denken.ch/) and the [Freethinkers Association](https://frei-denken.ch/). In the former, I served as Chairmain for seven years. 
+
+I have been a scuba diver for over a decade. My first dive was in 2013 in Brisbane, Australia. 
+Since then, I have done over 150 dives around the world. Some of my favourite spots are 
 
 </div>
