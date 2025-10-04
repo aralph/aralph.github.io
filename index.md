@@ -40,7 +40,7 @@ I am an active member of Swiss organisations that support reason, science and fr
 
 <div class="project-card" data-url="/projects/matrixscan/">
   <img src="assets/images/matrixscan.avif">
-  <h3 class="project-title">Localization on mobile</h3>
+  <h3 class="project-title">Object localization on mobile</h3>
   <p>Lead ML engineer for detection of barcodes and text on edge devices at Scandit.
   Inference with custom models for 4K 50Hz.</p>
   <div class="skills-list">
