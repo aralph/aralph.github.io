@@ -12,7 +12,7 @@ I am a Machine Learning engineer based in Switzerland. I'm interested in Compute
   <!--a href="mailto:your.email@example.com" class="contact-link">Email</a> -->
   <a href="https://linkedin.com/in/ralphaeschimann" class="contact-link">LinkedIn</a>
   <a href="https://github.com/aralph" class="contact-link">GitHub</a>
-  <a href="assets/pdfs/resume_ralph_aeschimann.pdf" class="contact-link" target="_blank">📄 Resume PDF</a>
+  <a href="assets/pdfs/resume_ralph_aeschimann.pdf" class="contact-link" target="_blank">📄 Resume</a>
 </div>
 
 </div>
@@ -24,9 +24,10 @@ I am a Machine Learning engineer based in Switzerland. I'm interested in Compute
 <div class="project-grid">
 
 <div class="project-card" data-url="/projects/shelfview/">
-  <img src="assets/images/shelfview.avif" alt="Project image">
+  <img src="assets/images/shelfview.avif">
   <h3 class="project-title">Product recognition in retail stores</h3>
-  <p>Tech lead of product recognition team. See <a href="https://www.scandit.com/products/shelfview/" target="_blank">ShelfView Product website</a>.</p>
+  <p>Tech lead of product recognition team building ShelfView at Scandit.
+  Custom models running in cloud-based application.</p>
   <div class="skills-list">
     <span class="skill-tag">Python</span>
     <span class="skill-tag">PyTorch</span>
@@ -36,9 +37,10 @@ I am a Machine Learning engineer based in Switzerland. I'm interested in Compute
 </div>
 
 <div class="project-card" data-url="/projects/matrixscan/">
-  <img src="assets/images/matrixscan.avif" alt="Project image">
-  <h3 class="project-title">Barcode & text localization on mobile</h3>
-  <p>Lead ML engineer for detection on edge devices. See <a href="https://www.scandit.com/products/matrixscan/" target="_blank">MatrixScan Product website</a>.</p>
+  <img src="assets/images/matrixscan.avif">
+  <h3 class="project-title">Localization on mobile</h3>
+  <p>Lead ML engineer for detection of barcodes and text on edge devices at Scandit.
+  Inference with custom models for 4K 50Hz.</p>
   <div class="skills-list">
     <span class="skill-tag">C++</span>
     <span class="skill-tag">Python</span>
@@ -47,21 +49,24 @@ I am a Machine Learning engineer based in Switzerland. I'm interested in Compute
 </div>
 
 <div class="project-card" data-url="/projects/vizarena/">
-  <img src="assets/images/vizarena.jpg" alt="Project image">
-  <h3 class="project-title">Virtual ads during live sports broadcasting</h3>
-  <p>Image segmentation for real-time augmented reality rendering. See <a href="https://www.vizrt.com/products/viz-arena/" target="_blank">Viz Arena Product website</a>.</p>
+  <img src="assets/images/vizarena.jpg">
+  <h3 class="project-title">Virtual ads for live sports broadcasting</h3>
+  <p>Custom image segmentation models for real-time AR applications at Vizrt.</p>
   <div class="skills-list">
     <span class="skill-tag">C++</span>
     <span class="skill-tag">Python</span>
     <span class="skill-tag">CUDA</span>
     <span class="skill-tag">Qt</span>
+    <span class="skill-tag">TensorFlow</span>
+    <span class="skill-tag">Caffe2</span>
   </div>
 </div>
 
 <div class="project-card" data-url="/projects/gator/">
-  <img src="assets/images/csirogator.jpg" alt="Project image">
-  <h3 class="project-title">Autonomous wheeled robot on cluttered grounds</h3>
-  <p>Research on driving on obstacle avoidance for autonomous offroad driving. See <a href="https://research.csiro.au/robotics/gator/" target="_blank">The Gator autonomous vehicle website</a>.</p>
+  <img src="assets/images/csirogator.jpg">
+  <h3 class="project-title">Autonomous driving</h3>
+  <p>Research on obstacle avoidance for autonomous offroad driving at CSIRO Australia.
+  Wheeled robot with stereo vision and Lidar.</p>
   <div class="skills-list">
     <span class="skill-tag">C++</span>
     <span class="skill-tag">OpenCV</span>
