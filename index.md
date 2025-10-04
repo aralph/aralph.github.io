@@ -25,6 +25,17 @@ I am an active member of Swiss organisations that support reason, science and fr
 
 <div class="project-grid">
 
+<div class="project-card" data-url="/projects/routinier/">
+  <img src="assets/images/routinier.jpg">
+  <h3 class="project-title">routine tracking mobile app</h3>
+  <p>A minimal iOS app for tracking routines and good habits.
+  Manages shared routines are handles across devices.</p>
+  <div class="skills-list">
+    <span class="skill-tag">Swift</span>
+    <span class="skill-tag">CloudKit</span>
+  </div>
+</div>
+
 <div class="project-card" data-url="/projects/shelfview/">
   <img src="assets/images/shelfview.avif">
   <h3 class="project-title">Product recognition in retail stores</h3>
