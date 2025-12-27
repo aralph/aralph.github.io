@@ -29,7 +29,7 @@ I am an active member of Swiss organisations that support reason, science and fr
   <img src="assets/images/routinier.jpg">
   <h3 class="project-title">routine tracking mobile app</h3>
   <p>A minimal iOS app for tracking routines and good habits.
-  Manages shared routines are handles across devices.</p>
+  Synchronizes shared routines across devices.</p>
   <div class="skills-list">
     <span class="skill-tag">Swift</span>
     <span class="skill-tag">CloudKit</span>
@@ -123,7 +123,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
 # Professional Experience
 
-**Senior Machine Learning Engineer** | *[Scandit](https://www.scandit.com/) (Zürich, Switzerland)* | 08.2021 - Present
+**Machine Learning Engineer** | *[Google](https://about.google/) (Zürich, Switzerland)* | 10.2025 - Present
+- Working in Google Search on improving AI Mode
+- Built benchmarking application to track direct tool call quality of LLMs
+
+**Senior Machine Learning Engineer** | *[Scandit](https://www.scandit.com/) (Zürich, Switzerland)* | 08.2021 - 01.2025
 - Tech Lead and Python Guild Lead for 40+ engineers
 - Built large-scale object detection and classification pipelines, validated with US retailer testset
 - Led visual search product development, scaled to >1M images/day with 10 customer pilots
