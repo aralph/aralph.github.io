@@ -2,6 +2,8 @@ main:
   - title: "Home"
     url: "/"
 projects:
+  - title: "Tool use in AI Mode"
+    url: "/projects/aimode/"
   - title: "Routine tracking app"
     url: "/projects/routinier/"
   - title: "Product recognition"

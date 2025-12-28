@@ -25,6 +25,16 @@ I am an active member of Swiss organisations that support reason, science and fr
 
 <div class="project-grid">
 
+<div class="project-card" data-url="/projects/aimode/">
+  <img src="assets/images/aimode.webp">
+  <h3 class="project-title">Tool use in Search AI mode</h3>
+  <p>Building infrastructure to benchmark tool use capabilities of Gemini, primarily for Google Search AI Mode.</p>
+  <div class="skills-list">
+    <span class="skill-tag">Gemini</span>
+    <span class="skill-tag">MCP</span>
+  </div>
+</div>
+
 <div class="project-card" data-url="/projects/routinier/">
   <img src="assets/images/routinier.jpg">
   <h3 class="project-title">routine tracking mobile app</h3>
